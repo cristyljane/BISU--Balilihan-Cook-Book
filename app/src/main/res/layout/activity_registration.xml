@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="SIGN UP"
+        android:textColor="#020202"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:background="@drawable/roundedcorner"
+        android:padding="18dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:background="@drawable/roundedcorner"
+        android:padding="18dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/cpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:background="@drawable/roundedcorner"
+        android:padding="18dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/registrationbutton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:padding="18dp"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registrationbutton"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Already have an account?"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/loginhere"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/registrationbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/text"
+        android:layout_marginTop="53dp"
+        android:text="Click here."
+        android:textColor="@color/blue"
+        android:textColorLink="#292976"
+        android:textSize="10sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236933496835",
+    "project_id": "bisu-balilihan---cook-book",
+    "storage_bucket": "bisu-balilihan---cook-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236933496835:android:bb3aa012205fb5f1920e36",
+        "android_client_info": {
+          "package_name": "com.example.bisubalilihancookbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvA1eAyjZ_MSHYhzWLvocRGC4j5yj9Row"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
